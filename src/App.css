@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(comps/assets/images/hero.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    z-index: 999;
+    
+}
+header h1{
+    font-weight: bold;    
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 30px;
+}
+.hero-in{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-in img{
+    height: 50px;
+    margin-top: 20px;
+}
+.hero-bg{
+    height: 75vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(comps/assets/images/hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header nav{
+    margin: 10px 0;
+    display: flex;
+    align-items: flex-end;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+header nav ul li a{
+    margin: 0 30px;
+    font-size: 1.55vw;
+    font-weight: lighter;
+}
+header nav li a:hover{
+    text-decoration: underline;
+}
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: rgb(116, 115, 115);
+}
+
+.bio{
+    background-color: rgb(116, 115, 115);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.bio p{
+    width: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+
+}
+#about-me{
+    max-width: 800px;
+}
+.bio .me-img{
+    width: 380px;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: circle();
+
+}
+.work{
+    height: 125vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(comps/assets/images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-color: rgb(17, 17, 17);
+    color: black;
+}
+.work h2{
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+}
+.contact{
+    padding-top: 60px;
+    height: 30vh;
+    background-color: rgb(116, 115, 115);
+}
+.contact h2{
+    font-size: 30px;
+}   
+.f-contact{
+    border: 3px solid black;
+    margin: 0 auto;
+    height: 168px;
+    width: 670px;
+    padding-top: 30px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.e-p{
+    padding: 35px;
+    justify-content: space-between;
+}
+.boxes{
+    padding: 30px 30px 0 30px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxes img{
+    width: 100%;
+}
+.box{
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    background-color:grey;
+    border: 1px solid black;
+
+}
+.box:first-child {
+    flex: 1 1 400px;
+    width: 50%;
+}
+.box:not(:first-child){
+    flex: 1 1 300px;
+    max-width: 60%;
+}
+
+.f-work{
+    display: flex;
+}
+.f-contact{
+    display: flex;
+}
+section{
+    padding: 60px;
+}
+.size{
+    width: 150px;
+    height: 350px;
+}
